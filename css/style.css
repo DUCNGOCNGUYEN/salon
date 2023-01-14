@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+header {
+	width: 810px;
+	height: 95px;
+	margin: 0 auto 30px auto;
+	position: relative;
+	overflow: hidden;
+}
+header h1 {
+	margin: 25px 0 25px 18px;
+	float: left;
+	position: absolute;
+}
+nav {
+	margin: 25px 0 25px 25px;
+	float: right;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+}
+footer {
+	width: 810px;
+	height: 55px;
+	margin: 0 auto 0 auto;
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+footer p {
+	margin-bottom: 0;
+	padding: 17px 0 17px 0;
+	text-align: center;
+}
+nav ul li a:hover {
+	opacity: 0.8;
+}
+footer small {
+	font-size: 100%;
+}
+/* 基本レイアウト ここまで↑ */
+
+/* 「ウッソン美容室について」ページ ここから↓ */
+#main h1 {
+	margin: 0 0 20px 0;
+	padding: 5px 35px 5px 10px;
+	background-image: url(../images/h1_right.gif);
+	background-repeat: no-repeat;
+	background-position: 530px 10px;
+	border-left: 10px solid #fc9705;
+	background-color: #fceae8;
+	font-size: 150%;
+	font-color: #630717;
+}
+.picture_left {
+	margin: 0 20px 40px 20px;
+	float: left;
+}
+/* 「ウッソン美容室について」ページ ここまで↑ */
+
+/* 「ヘアメニュー」ページ ここから↓ */
+table {
+	width: 577px;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+table caption {
+	overflow: hidden;
+	text-align: left;
+}
+table th, table td {
+	padding: 10px;
+	border: 1px solid #666666;
+}
+table th {
+	background-color: #65161b;
+	font-color: #ffffff;
+	text-align: left;
+}
+
+table td.price {
+	width: 75px;
+	text-align: center;
+}
+/* 「ヘアメニュー」ページ ここまで↑ */
+
+/* 「ご予約・お問い合わせ」ページ ここから↓ */
+form {
+	margin-top: 30px;
+}
+input#name, textarea#request {
+	border: 1px solid #999999;
+}
+textarea#request {
+	width: 450px;
+	height: 150px;
+	overflow: scroll;
+}
+/* 「ご予約・お問い合わせ」ページ ここまで↑ */
